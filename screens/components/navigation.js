@@ -66,8 +66,18 @@ export default function MyTabs() {
 
           // tabBarLabel: 'Shop',
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="mic" size={size} color={color} />
+            
+            <Ionicons name="mic" size={size} color={color} 
+            style ={{backgroundColor: 'black', 
+            padding: 10,
+            borderRadius: 50,
+            marginBottom: 10,
+          }}/>
+
           ),
+            
+       
+          
         }}
       />
 
